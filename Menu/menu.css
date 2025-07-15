@@ -1,0 +1,105 @@
+*{
+font-family: "Noto Serif Display";
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background:linear-gradient(180deg, #84a9ff, #f5f8ff);
+  margin: 0px; /*Xoa khoang trang toan trang*/
+  padding: 0px;
+}
+
+div.Menu {
+  display: flex;
+  flex-direction: column;
+ background-color: #758ae9;
+  width: 200px;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Noto Serif Display";
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  border: 2px white solid;
+  margin: 0px;
+  height: 25vh;
+  padding: 25px;
+  color: #e4eaec;
+  text-shadow: 0px 0px 20px white;
+  font-size: 20px;
+}
+
+a.tag {
+  display: flex;
+  align-items: center; /*giup can giua theo chieu ngang*/
+  justify-content: center; /*giup can giua theo chieu doc*/
+  font-size: 20px;
+  padding: 25px;
+  border: 2px white solid;
+  height: 25vh;
+  text-decoration: none;
+  color: black;
+ background-color: #758ae9;
+  text-align: center;
+}
+
+.active {
+  display: flex;
+  align-items: center; /*giup can giua theo chieu ngang*/
+  justify-content: center; /*giup can giua theo chieu doc*/
+  font-size: 20px;
+  border: 2px white solid;
+  padding: 25px;
+  height: 25vh;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  background-color: #e4eaec;
+  font-weight: bold;
+}
+
+div.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  height: 45vh;
+  margin-left: 20px;
+}
+
+div.number{
+  margin: 10px 0px 0px 50px;
+  border: solid;
+  background-color: white;
+  border-radius: 180px;
+  width: 22px;
+}
+
+div.card {
+  max-width: 120px;
+  width: 100%;
+  background-color: #6366f1;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+div.bangmon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.Menu:hover{
+  width: 220px;
+  transition: all 0.5s;
+}
+
+p{
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
